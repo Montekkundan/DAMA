@@ -1,0 +1,25 @@
+{
+    "models": [
+      {
+        "model_path": "predict.py",
+        "description": "Model ",
+        "tags": ["farming", "predict"]
+      },
+      {
+        "model_path": "another_model.py",
+        "description": "Another model for testing",
+        "tags": ["test"]
+      },
+      {
+        "model_path": "weather_model.py",
+        "description": "Model that predicts weather patterns",
+        "tags": ["weather", "predict", "forecast"]
+      },
+      {
+        "model_path": "sales_model.py",
+        "description": "Model that predicts sales trends",
+        "tags": ["sales", "predict", "business"]
+      }
+    ]
+  }
+  
