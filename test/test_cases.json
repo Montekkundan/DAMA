@@ -1,15 +1,15 @@
 [
     {
       "text": "weather app",
-      "label": "weather_model.py"
+      "answer": "weather_model.py"
     },
     {
       "text": "farming prediction",
-      "label": "predict.py"
+      "answer": "predict.py"
     },
     {
       "text": "business forecast",
-      "label": "sales_model.py"
+      "answer": "sales_model.py"
     }
   ]
   
