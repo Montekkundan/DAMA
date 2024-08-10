@@ -19,6 +19,11 @@
         "model_path": "sales_model.py",
         "description": "Model that predicts sales trends",
         "tags": ["sales", "predict", "business"]
+      },
+      {
+        "model_path": "./models/diabetes_prediction/predict.py",
+        "description": "Model for predicting diabetes using patient data",
+        "tags": ["diabetes", "health", "predict"]
       }
     ]
   }

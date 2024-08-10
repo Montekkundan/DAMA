@@ -22,14 +22,15 @@ def get_completion(message):
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", 
-             "content": f"""
-                You are a helpful assistant. You have the following models metadata: {models_metadata_str}.
-                If user asks anything, search the model and tell which model_path to use.
-                Answer just the modal path no extra information. Just give the model path.
-                If the user query links to any of the model descriptions, or tags even the slightest,
-                and the user does not ask for a specific model, just give the model path.
-                If it's a random question, just answer as you do.
-            """},
+             "content":  f"""
+    You are a helpful assistant that helps users choose models by printing the model path. You have the following models metadata: {models_metadata_str}.
+    Your goal is to assist the user in finding the correct model path based on their query.
+    If the user's query is related to any description or tag in the models metadata but is too vague, ask follow-up questions to determine the specific issue.
+    If the user confirms a specific model-related issue (e.g., diabetes), immediately provide the model path without asking any further questions.
+    If the user's query matches multiple models, suggest those models to the user and let them pick. If you're not sure, use your best judgment to choose the most relevant model.
+    If there is a clear match with a single model and the user confirms it, provide the model path directly without any additional explanation, context, or sentences. Only print the model path.
+    If the query is completely unrelated to any model, answer as you normally would.
+"""},
             {"role": "user", "content": message}
         ]
     )

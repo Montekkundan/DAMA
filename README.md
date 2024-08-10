@@ -2,6 +2,10 @@
 
 ## setup venv enviroment 
 
+```bash
+python -m venv venv
+```
+
 for mac: 
 ```bash
 source venv/bin/activate
@@ -21,7 +25,7 @@ pip install -r requirements.txt
 # How to run
 
 ```bash
-python main.py
+python chat/main.py
 ```
 
 # Testing
