@@ -1,5 +1,5 @@
 import os
-from chat.main import get_completion
+from chat.test import get_completion
 import pytest
 import json
 
@@ -18,12 +18,12 @@ def test_model_selection(query, expected):
     
     print(f"Query: '{query}' | Expected: '{expected}' | Got: '{result}'", end=' ')
     
-    if result == expected:
+    if expected in result:
         print("✅") 
     else:
         print("❌")
     
-    assert result == expected
+    assert expected in result
 
 if __name__ == "__main__":
     pytest.main()

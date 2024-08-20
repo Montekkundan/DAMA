@@ -8,8 +8,8 @@ To set up the virtual environment, follow these steps:
 
 ### For Windows:
 ```bash
-python -m venv venv
-./venv/Scripts/activate
+Create the virtual env: python -m venv venv
+Activate virtual env: ./venv/Scripts/activate
 ```
 
 ### For macOS/Linux:
@@ -73,7 +73,7 @@ pytest -s
 
 test line:
 
-- just give me modal path for diabetes
+- just give me model path for diabetes
 
 ![test](test.jpg)
 

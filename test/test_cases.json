@@ -1,15 +1,21 @@
 [
     {
-      "text": "weather app",
+      "text": "What's the weather prediction for today?",
       "answer": "weather_model.py"
     },
     {
-      "text": "farming prediction",
+      "text": "Can you help me predict the best time to plant crops?",
       "answer": "predict.py"
     },
     {
-      "text": "business forecast",
+      "text": "What does the sales forecast look like for next quarter?",
       "answer": "sales_model.py"
+    },
+    {
+      "text": "Can you tell me if I'm at risk of developing diabetes?",
+      "answer": "./models/diabetes_prediction/predict.py"
     }
+    
+    
   ]
   

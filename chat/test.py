@@ -7,7 +7,7 @@ from langchain.memory import ConversationBufferMemory
 
 load_dotenv()
 
-with open('models.json') as f:
+with open('../models.json') as f:
     models_metadata = json.load(f)
 
 client = openai.OpenAI(
