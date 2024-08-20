@@ -26,7 +26,7 @@ class Model(nn.Module):
         return out
 
 loaded_net = Model(input_features=7)
-loaded_net.load_state_dict(torch.load('./models/diabetes_prediction/diabetes_model.pth', weights_only=True))
+loaded_net.load_state_dict(torch.load('diabetes_model.pth', weights_only=True))
 loaded_net.eval()
 
 sc = StandardScaler()
@@ -36,7 +36,7 @@ X_train = np.array([[6, 148, 72, 35, 0, 33.6, 50],
                     [8, 183, 64, 0, 0, 23.3, 32]])
 sc.fit(X_train)
 
-joblib.dump(sc, './models/diabetes_prediction/scaler.pkl')
+joblib.dump(sc, 'scaler.pkl')
 
 sample_data = np.array([[6, 148, 72, 35, 0, 33.6, 50]])
 sample_data = sc.transform(sample_data)

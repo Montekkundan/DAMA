@@ -7,7 +7,7 @@ from langchain.memory import ConversationBufferMemory
 
 load_dotenv()
 
-with open('../models.json') as f:
+with open('models.json') as f:
     models_metadata = json.load(f)
 
 client = openai.OpenAI(
@@ -62,10 +62,13 @@ def get_completion(message):
             f"""
             You are a helpful assistant that helps users choose models by printing the model path. You have the following models metadata: {models_metadata_str}.
             Your goal is to assist the user in finding the correct model path based on their query.
-            If the user's query is related to any description or tag in the models metadata but is too vague, give them a list of models' paths that may help with their problems, ask follow-up questions to determine the specific issue and give the best fit model from the list.
-            If the user confirms a specific model-related issue (e.g., diabetes), immediately provide the model path without asking any further questions.
-            If the user's query matches multiple models, suggest those models to the user and let them pick. If there is a clear match with a single model and the user confirms it, provide the model path directly.
-            If the query is unrelated to any model, answer as you normally would.
+            Before you reply with the answer to the user's question/problem, print out the set of keywords that capsulate the context of the user's problem, these keywords will show how you understand the situation of the user and will be used to select the best model upon. 
+            You may ask the user more questions to clarify the context or get more information about the problem, update the keywords set while doing that.
+            Below is the guide on how to answer based on the situation:
+                If the user's query is related to any description or tag in the models metadata but is too vague, give them a list of models' paths that may help with their problems, ask follow-up questions to determine the specific issue and give the best fit model from the list.
+                If the user confirms a specific model-related issue (e.g., diabetes), immediately provide the model path without asking any further questions.
+                If the user's query matches multiple models, suggest those models to the user and let them pick. If there is a clear match with a single model and the user confirms it, provide the model path directly.
+                If the query is unrelated to any model, answer as you normally would.
             Current conversation history: {history}
             """
             },
