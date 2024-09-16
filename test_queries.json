@@ -1,0 +1,22 @@
+[
+    {
+        "user_query": "What's the weather prediction for today?",
+        "expected_model": "weather_model.py"
+    },
+    {
+        "user_query": "Can you help me predict the best time to plant crops?",
+        "expected_model": "predict.py"
+    },
+    {
+        "user_query": "I need help with crop yield optimization.",
+        "expected_model": "predict.py"
+    },
+    {
+        "user_query": "Am I at risk of developing diabetes?",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Tell me about the latest sales trends.",
+        "expected_model": "sales_model.py"
+    }
+]
