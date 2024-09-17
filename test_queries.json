@@ -1,22 +1,83 @@
 [
     {
-        "user_query": "What's the weather prediction for today?",
-        "expected_model": "weather_model.py"
+      "user_query": "What's the weather prediction for today?",
+      "expected_model": "weather_model.py"
     },
     {
-        "user_query": "Can you help me predict the best time to plant crops?",
-        "expected_model": "predict.py"
+      "user_query": "Can you help me predict the best time to plant crops?",
+      "expected_model": "predict.py"
     },
     {
-        "user_query": "I need help with crop yield optimization.",
-        "expected_model": "predict.py"
+      "user_query": "I need help with crop yield optimization.",
+      "expected_model": "predict.py"
     },
     {
-        "user_query": "Am I at risk of developing diabetes?",
-        "expected_model": "./models/diabetes_prediction/predict.py"
+      "user_query": "Am I at risk of developing diabetes?",
+      "expected_model": "./models/diabetes_prediction/predict.py"
     },
     {
-        "user_query": "Tell me about the latest sales trends.",
-        "expected_model": "sales_model.py"
+      "user_query": "Tell me about the latest sales trends.",
+      "expected_model": "sales_model.py"
+    },
+    {
+      "user_query": "What is the best investment strategy in the current market?",
+      "expected_model": "stock_model.py"
+    },
+    {
+      "user_query": "How can I reduce my risk of heart disease?",
+      "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+      "user_query": "Recommend fertilizers suitable for my soil type.",
+      "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+      "user_query": "Forecast the energy consumption for next quarter.",
+      "expected_model": "energy_forecast.py"
+    },
+    {
+      "user_query": "Analyze the sentiment of these tweets.",
+      "expected_model": "social_media_sentiment.py"
+    },
+    {
+      "user_query": "Predict the traffic conditions for tomorrow morning.",
+      "expected_model": "traffic_congestion.py"
+    },
+    {
+      "user_query": "Is there a risk of an epidemic in the region?",
+      "expected_model": "disease_outbreak.py"
+    },
+    {
+      "user_query": "Translate this document into Spanish.",
+      "expected_model": "language_translation.py"
+    },
+    {
+      "user_query": "What's the forecasted demand for electricity next month?",
+      "expected_model": "energy_forecast.py"
+    },
+    {
+      "user_query": "How can I improve my health and prevent diseases?",
+      "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+      "user_query": "Tell me about the market trends in technology stocks.",
+      "expected_model": "stock_model.py"
+    },
+    {
+      "user_query": "What's the sentiment on social media about the new policy?",
+      "expected_model": "social_media_sentiment.py"
+    },
+    {
+      "user_query": "Will there be heavy traffic on the highway tonight?",
+      "expected_model": "traffic_congestion.py"
+    },
+    {
+      "user_query": "Help me decide which crop to plant this season.",
+      "expected_model": "predict.py"
+    },
+    {
+      "user_query": "Is it going to rain tomorrow?",
+      "expected_model": "weather_model.py"
     }
-]
+  ]
+  

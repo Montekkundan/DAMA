@@ -1,30 +1,76 @@
 {
-    "models": [
-      {
-        "model_path": "predict.py",
-        "description": "Model ",
-        "tags": ["farming", "predict"]
-      },
-      {
-        "model_path": "another_model.py",
-        "description": "Another model for testing",
-        "tags": ["test"]
-      },
-      {
-        "model_path": "weather_model.py",
-        "description": "Model that predicts weather patterns",
-        "tags": ["weather", "predict", "forecast"]
-      },
-      {
-        "model_path": "sales_model.py",
-        "description": "Model that predicts sales trends",
-        "tags": ["sales", "predict", "business"]
-      },
-      {
-        "model_path": "./models/diabetes_prediction/predict.py",
-        "description": "Model for predicting diabetes using patient data",
-        "tags": ["diabetes", "health", "predict"]
-      }
-    ]
-  }
-  
+  "models": [
+    {
+      "model_path": "predict.py",
+      "description": "Model for predicting the best time to plant crops",
+      "tags": ["farming", "agriculture", "predict"],
+      "keywords": ["plant", "crops", "agriculture", "farming", "predict"]
+    },
+    {
+      "model_path": "weather_model.py",
+      "description": "Model that predicts weather patterns",
+      "tags": ["weather", "predict", "forecast"],
+      "keywords": ["weather", "forecast", "rain", "temperature", "predict"]
+    },
+    {
+      "model_path": "sales_model.py",
+      "description": "Model that predicts sales trends",
+      "tags": ["sales", "predict", "business"],
+      "keywords": ["sales", "business", "market", "predict"]
+    },
+    {
+      "model_path": "./models/diabetes_prediction/predict.py",
+      "description": "Model for predicting diabetes using patient data",
+      "tags": ["diabetes", "health", "predict"],
+      "keywords": ["diabetes", "health", "medical", "predict"]
+    },
+    {
+      "model_path": "stock_model.py",
+      "description": "Model that predicts stock market trends",
+      "tags": ["stock", "market", "predict", "finance"],
+      "keywords": ["stock", "market", "finance", "predict", "investment"]
+    },
+    {
+      "model_path": "./models/heart_disease_prediction/predict.py",
+      "description": "Model for diagnosing heart disease risk",
+      "tags": ["heart disease", "health", "predict"],
+      "keywords": ["heart", "cardiac", "disease", "health", "predict"]
+    },
+    {
+      "model_path": "fertilizer_recommendation.py",
+      "description": "Model for recommending fertilizers based on soil data",
+      "tags": ["farming", "agriculture", "recommendation"],
+      "keywords": ["fertilizer", "soil", "agriculture", "farming", "recommend"]
+    },
+    {
+      "model_path": "energy_forecast.py",
+      "description": "Model that forecasts energy consumption",
+      "tags": ["energy", "forecast", "predict"],
+      "keywords": ["energy", "consumption", "forecast", "predict", "power"]
+    },
+    {
+      "model_path": "social_media_sentiment.py",
+      "description": "Model for analyzing social media sentiment",
+      "tags": ["social media", "sentiment analysis", "predict"],
+      "keywords": ["social media", "sentiment", "analysis", "predict", "opinion"]
+    },
+    {
+      "model_path": "traffic_congestion.py",
+      "description": "Model for predicting traffic congestion",
+      "tags": ["traffic", "congestion", "predict"],
+      "keywords": ["traffic", "congestion", "predict", "transport"]
+    },
+    {
+      "model_path": "disease_outbreak.py",
+      "description": "Model for disease outbreak prediction",
+      "tags": ["disease", "outbreak", "predict", "health"],
+      "keywords": ["disease", "outbreak", "predict", "health", "epidemic"]
+    },
+    {
+      "model_path": "language_translation.py",
+      "description": "Model for natural language translation",
+      "tags": ["language", "translation", "NLP"],
+      "keywords": ["language", "translation", "translate", "NLP", "text"]
+    }
+  ]
+}

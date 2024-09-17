@@ -1,5 +1,5 @@
-from chat.llm_based_selection import llm_model_selection
-from chat.embedding_based_selection import embedding_model_selection
+from selection.llm_based_selection import llm_model_selection
+from selection.embedding_based_selection import embedding_model_selection
 
 def hybrid_model_selection(user_message):
     # get LLM's suggestion

@@ -10,9 +10,9 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from chat.llm_based_selection import llm_model_selection
-from chat.embedding_based_selection import embedding_model_selection
-from chat.hybrid_selection import hybrid_model_selection
+from selection.llm_based_selection import llm_model_selection
+from selection.embedding_based_selection import embedding_model_selection
+from selection.hybrid_selection import hybrid_model_selection
 
 base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 test_queries_path = os.path.join(base_dir, 'test_queries.json')
