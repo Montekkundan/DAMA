@@ -26,15 +26,15 @@ def truncate_text(text, max_length=40):
 def test_selection_methods():
     table = Table(title="Model Selection Results", expand=True)
 
-    # Define columns with desired width and formatting
-    table.add_column("User Query", style="cyan", width=40)
-    table.add_column("Expected Model", style="magenta", width=20)
-    table.add_column("LLM-Based Model", style="green", width=20)
-    table.add_column("LLM Correct", justify="center", style="bold")
-    table.add_column("Embedding-Based Model", style="yellow", width=20)
-    table.add_column("Embedding Correct", justify="center", style="bold")
-    table.add_column("Hybrid Model", style="blue", width=20)
-    table.add_column("Hybrid Correct", justify="center", style="bold")
+
+    table.add_column("User Query", style="cyan", width=20)
+    table.add_column("Expected Model", style="magenta", width=10)
+    table.add_column("LLM-Based Model", style="green", width=10)
+    table.add_column("LLM Correct", justify="center", style="bold", width=5)
+    table.add_column("Embedding-Based Model", style="yellow", width=10)
+    table.add_column("Embedding Correct", justify="center", style="bold", width=5)
+    table.add_column("Hybrid Model", style="blue", width=10)
+    table.add_column("Hybrid Correct", justify="center", style="bold", width=5)
 
     correct_llm = 0
     correct_embedding = 0
