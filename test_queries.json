@@ -1,83 +1,481 @@
-[
-    {
-      "user_query": "What's the weather prediction for today?",
-      "expected_model": "weather_model.py"
+[    {
+        "user_query": "When should I plant wheat this year?",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "Can you help me predict the best time to plant crops?",
-      "expected_model": "predict.py"
+        "user_query": "What's the optimal time to sow seeds in my region?",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "I need help with crop yield optimization.",
-      "expected_model": "predict.py"
+        "user_query": "Can you help me decide when to start farming?",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "Am I at risk of developing diabetes?",
-      "expected_model": "./models/diabetes_prediction/predict.py"
+        "user_query": "I need advice on planting crops.",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "Tell me about the latest sales trends.",
-      "expected_model": "sales_model.py"
+        "user_query": "Best season to cultivate rice?",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "What is the best investment strategy in the current market?",
-      "expected_model": "stock_model.py"
+        "user_query": "Predict the ideal planting schedule for vegetables.",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "How can I reduce my risk of heart disease?",
-      "expected_model": "./models/heart_disease_prediction/predict.py"
+        "user_query": "Agricultural forecast for crop planting times?",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "Recommend fertilizers suitable for my soil type.",
-      "expected_model": "fertilizer_recommendation.py"
+        "user_query": "Help me with crop sowing dates.",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "Forecast the energy consumption for next quarter.",
-      "expected_model": "energy_forecast.py"
+        "user_query": "When is the best time to plant tomatoes?",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "Analyze the sentiment of these tweets.",
-      "expected_model": "social_media_sentiment.py"
+        "user_query": "Suggest when to begin farming operations.",
+        "expected_model": "predict.py"
     },
     {
-      "user_query": "Predict the traffic conditions for tomorrow morning.",
-      "expected_model": "traffic_congestion.py"
+        "user_query": "What's the weather forecast for next week?",
+        "expected_model": "weather_model.py"
     },
     {
-      "user_query": "Is there a risk of an epidemic in the region?",
-      "expected_model": "disease_outbreak.py"
+        "user_query": "Will it rain tomorrow?",
+        "expected_model": "weather_model.py"
     },
     {
-      "user_query": "Translate this document into Spanish.",
-      "expected_model": "language_translation.py"
+        "user_query": "Give me the temperature prediction for today.",
+        "expected_model": "weather_model.py"
     },
     {
-      "user_query": "What's the forecasted demand for electricity next month?",
-      "expected_model": "energy_forecast.py"
+        "user_query": "Is there a storm coming?",
+        "expected_model": "weather_model.py"
     },
     {
-      "user_query": "How can I improve my health and prevent diseases?",
-      "expected_model": "./models/heart_disease_prediction/predict.py"
+        "user_query": "How's the weather looking this weekend?",
+        "expected_model": "weather_model.py"
     },
     {
-      "user_query": "Tell me about the market trends in technology stocks.",
-      "expected_model": "stock_model.py"
+        "user_query": "Predict the weather conditions for my area.",
+        "expected_model": "weather_model.py"
     },
     {
-      "user_query": "What's the sentiment on social media about the new policy?",
-      "expected_model": "social_media_sentiment.py"
+        "user_query": "Weather outlook for the next few days?",
+        "expected_model": "weather_model.py"
     },
     {
-      "user_query": "Will there be heavy traffic on the highway tonight?",
-      "expected_model": "traffic_congestion.py"
+        "user_query": "Is it going to be sunny today?",
+        "expected_model": "weather_model.py"
     },
     {
-      "user_query": "Help me decide which crop to plant this season.",
-      "expected_model": "predict.py"
+        "user_query": "What's the chance of snowfall tonight?",
+        "expected_model": "weather_model.py"
     },
     {
-      "user_query": "Is it going to rain tomorrow?",
-      "expected_model": "weather_model.py"
+        "user_query": "Will there be high winds tomorrow?",
+        "expected_model": "weather_model.py"
+    },
+    {
+        "user_query": "Predict the sales trends for this quarter.",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "How will the market perform next month?",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "Forecast business sales for the upcoming year.",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "What's the expected revenue growth?",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "Help me analyze future sales projections.",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "What are the sales predictions for our new product?",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "Estimate the market demand for electronics.",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "Will sales increase during the holiday season?",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "Provide sales forecasts based on current data.",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "What are the upcoming trends in retail sales?",
+        "expected_model": "sales_model.py"
+    },
+    {
+        "user_query": "Assess my risk of developing diabetes.",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Can you predict if I might get diabetes?",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Evaluate my diabetes risk factors.",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Help me understand if I'm prone to diabetes.",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Do my symptoms indicate diabetes?",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "What's the likelihood of me having diabetes?",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Predict diabetes risk based on my health data.",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Am I showing signs of diabetes?",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Is my blood sugar level normal?",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Determine if I'm at risk for type 2 diabetes.",
+        "expected_model": "./models/diabetes_prediction/predict.py"
+    },
+    {
+        "user_query": "Predict the stock market trends for next week.",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "Should I invest in tech stocks now?",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "Forecast the performance of the S&P 500.",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "What's the investment outlook for this quarter?",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "Will the stock prices rise or fall?",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "Provide predictions for the financial markets.",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "Is it a good time to buy stocks?",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "How will the markets behave post-election?",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "What are the investment trends for the coming year?",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "Analyze the future of the stock market.",
+        "expected_model": "stock_model.py"
+    },
+    {
+        "user_query": "Assess my risk of heart disease.",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Do I have symptoms of cardiac issues?",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Predict my likelihood of heart problems.",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Help me understand my heart health.",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Am I at risk of a heart attack?",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Evaluate my chances of developing heart disease.",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Determine if my chest pain is serious.",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Is my blood pressure indicating heart disease?",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Predict heart disease risk based on my data.",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Do I need to be concerned about heart conditions?",
+        "expected_model": "./models/heart_disease_prediction/predict.py"
+    },
+    {
+        "user_query": "Recommend the best fertilizer for my crops.",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "Which fertilizer should I use for my soil type?",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "Help me choose fertilizers for farming.",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "Suggest fertilizers based on soil analysis.",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "What nutrients does my soil need?",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "Advise on fertilizer application for my fields.",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "Which fertilizer is suitable for corn?",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "Optimal fertilizer recommendations for agriculture.",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "Guide me on soil fertility management.",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "Best fertilizer options for organic farming?",
+        "expected_model": "fertilizer_recommendation.py"
+    },
+    {
+        "user_query": "Forecast energy consumption for next month.",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "Predict power usage during winter.",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "What will be the energy demands next year?",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "Help me estimate future electricity consumption.",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "Provide energy consumption projections.",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "Will power usage increase in summer?",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "Analyze trends in energy consumption.",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "What's the expected demand for electricity?",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "Predict future power needs.",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "Energy usage forecast for industrial sectors.",
+        "expected_model": "energy_forecast.py"
+    },
+    {
+        "user_query": "Analyze sentiment of tweets about our brand.",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "What's public opinion on the new policy?",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "Assess social media reactions to the event.",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "Can you predict sentiment trends online?",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "How are people feeling about the product launch?",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "Provide sentiment analysis on social media posts.",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "What's the general mood on social media today?",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "Sentiment prediction for recent news articles.",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "Evaluate opinions expressed on forums.",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "Is public sentiment positive or negative?",
+        "expected_model": "social_media_sentiment.py"
+    },
+    {
+        "user_query": "Predict traffic congestion for tomorrow morning.",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "Will there be heavy traffic on my route?",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "Forecast traffic conditions for the weekend.",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "Is there a traffic jam ahead?",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "Help me plan to avoid traffic delays.",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "What's the traffic prediction for highways?",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "Will congestion be high during rush hour?",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "Provide traffic forecasts for the city.",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "How bad is traffic likely to be tonight?",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "Are there any traffic alerts I should know about?",
+        "expected_model": "traffic_congestion.py"
+    },
+    {
+        "user_query": "Is there a risk of an epidemic in the region?",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "Predict potential disease outbreaks.",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "Are any health warnings issued recently?",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "Help me understand outbreak risks.",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "What's the likelihood of a flu outbreak?",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "Provide disease outbreak forecasts.",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "Are there signs of an epidemic?",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "Assess health risks due to disease spread.",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "Predict emerging infectious diseases.",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "Is there a chance of a new pandemic?",
+        "expected_model": "disease_outbreak.py"
+    },
+    {
+        "user_query": "Translate this document into French.",
+        "expected_model": "language_translation.py"
+    },
+    {
+        "user_query": "Can you convert English text to Spanish?",
+        "expected_model": "language_translation.py"
+    },
+    {
+        "user_query": "Help me translate a paragraph.",
+        "expected_model": "language_translation.py"
+    },
+    {
+        "user_query": "I need a translation of this sentence.",
+        "expected_model": "language_translation.py"
+    },
+    {
+        "user_query": "Provide a German version of this text.",
+        "expected_model": "language_translation.py"
+    },
+    {
+        "user_query": "How do I say this in Chinese?",
+        "expected_model": "language_translation.py"
+    },
+    {
+        "user_query": "Translate the following into Japanese.",
+        "expected_model": "language_translation.py"
+    },
+    {
+        "user_query": "Can you translate between languages?",
+        "expected_model": "language_translation.py"
+    },
+    {
+        "user_query": "I need assistance with language translation.",
+        "expected_model": "language_translation.py"
+    },
+    {
+        "user_query": "Turn this English text into Italian.",
+        "expected_model": "language_translation.py"
     }
-  ]
-  
+]
